@@ -1,0 +1,54 @@
+.options {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button {
+    background: inherit;
+    height: 10%;
+    color: #b2b576;
+    border: 2px solid #b2b576;
+    border-radius: 50px;
+}
+
+.grades-buttons button {
+    border: none;
+    background: #b2b576;
+    mask-image: url("../../svg/black-star-silhouette.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    width: 3vw;
+    height: 4vh;
+    transition: background .35s;
+}
+
+.grades-buttons button:hover {
+    background: #7B8C3B;
+}
+
+.hands button {
+    border: none;
+    background: #40592E;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    width: 3vw;
+    height: 4vh;
+    transition: background .35s;
+}
+
+.hands button:hover {
+    background: #b2b576;
+}
+
+.like {
+    mask-image: url("../../svg/like.svg");
+}
+
+.dislike {
+   mask-image: url("../../svg/dislike.svg");
+}

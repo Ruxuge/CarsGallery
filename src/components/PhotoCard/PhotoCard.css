@@ -1,0 +1,6 @@
+.photo-card {
+    height: 90vh;
+    margin: 10% 0;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,15 @@
+.sort-by {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sort-by button {
+    background: inherit;
+    width: 30%;
+    height: 30%;
+    color: #b2b576;
+    border: 2px solid #b2b576;
+    border-radius: 50px;
+}
