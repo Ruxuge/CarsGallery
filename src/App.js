@@ -65,7 +65,7 @@ export default function App() {
     return (
         <section className="App">
             <header className='app-header'>
-                <h1>Jazzy Gallery</h1>
+                <h1>Cars Gallery</h1>
             </header>
             <SortBy
                 sortByName={sortByName}
